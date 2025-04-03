@@ -5,7 +5,7 @@ import sidebarConfig from './sidebarConfig'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  base: '/passScroll/',
+  base: './',
   title: 'June_Solstice',
   description: '个人学习笔记',
   lastUpdated: true,
