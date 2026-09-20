@@ -46,6 +46,39 @@ const sidebarConfig = {
       collapsed: true, // 侧边栏是否收起
       items: [{ text: 'Flex布局', link: '/blog/flex' }]
     }
+  ],
+  '/entertainment/': [
+    { text: '学习路径总览', link: '/entertainment/' },
+    {
+      text: '基础准备',
+      collapsed: true, // 侧边栏是否收起
+      items: [
+        { text: '提高FPS', link: '/entertainment/fps' },
+        { text: '自定义练习设置', link: '/entertainment/practice-settings' }
+      ]
+    },
+    {
+      text: '武器体系',
+      collapsed: true, // 侧边栏是否收起
+      items: [{ text: '武器连招与应对', link: '/entertainment/weapon-combos' }]
+    },
+    {
+      text: '核心理论',
+      collapsed: true, // 侧边栏是否收起
+      items: [
+        { text: '博弈技巧', link: '/entertainment/game-theory' },
+        { text: '基础身法', link: '/entertainment/movement' }
+      ]
+    },
+    {
+      text: '专项深入',
+      collapsed: true, // 侧边栏是否收起
+      items: [
+        { text: '斩马刀学习分享', link: '/entertainment/zhanmadao' },
+        { text: '远程博弈', link: '/entertainment/ranged-combat' },
+        { text: '顾清寒进阶练习', link: '/entertainment/guqinghan' }
+      ]
+    }
   ]
 }
 

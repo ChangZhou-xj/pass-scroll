@@ -33,6 +33,20 @@ const navConfig = [
       { text: '基数排序', link: '/algorithm/sort/radix' },
       { text: '排序算法总结', link: '/algorithm/sort/sort' }
     ]
+  },
+  {
+    text: '娱乐',
+    items: [
+      { text: '学习路径总览', link: '/entertainment/' },
+      { text: '提高FPS', link: '/entertainment/fps' },
+      { text: '自定义练习设置', link: '/entertainment/practice-settings' },
+      { text: '武器连招与应对', link: '/entertainment/weapon-combos' },
+      { text: '博弈技巧', link: '/entertainment/game-theory' },
+      { text: '基础身法', link: '/entertainment/movement' },
+      { text: '斩马刀学习分享', link: '/entertainment/zhanmadao' },
+      { text: '远程博弈', link: '/entertainment/ranged-combat' },
+      { text: '顾清寒进阶练习', link: '/entertainment/guqinghan' }
+    ]
   }
 ]
 
