@@ -5,7 +5,9 @@ import sidebarConfig from './sidebarConfig'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  base: './',
+  // 必须与 gh-pages 项目页路径一致（仓库名），不能用相对路径 './'
+  // 相对 base 会让路由生成 ./xxx 相对链接，跨目录跳转时浏览器按当前路径解析导致 404
+  base: '/pass-scroll/',
   title: 'June_Solstice',
   description: '个人学习笔记',
   lastUpdated: true,
