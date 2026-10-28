@@ -42,6 +42,7 @@ const navConfig = [
       { text: '自定义练习设置', link: '/entertainment/practice-settings' },
       { text: '武器连招与应对', link: '/entertainment/weapon-combos' },
       { text: '博弈技巧', link: '/entertainment/game-theory' },
+      { text: '蓝白博弈论', link: '/entertainment/蓝白博弈论' },
       { text: '基础身法', link: '/entertainment/movement' },
       { text: '斩马刀学习分享', link: '/entertainment/zhanmadao' },
       { text: '远程博弈', link: '/entertainment/ranged-combat' },

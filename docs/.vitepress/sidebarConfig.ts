@@ -67,6 +67,7 @@ const sidebarConfig = {
       collapsed: true, // 侧边栏是否收起
       items: [
         { text: '博弈技巧', link: '/entertainment/game-theory' },
+        { text: '蓝白博弈论', link: '/entertainment/蓝白博弈论' },
         { text: '基础身法', link: '/entertainment/movement' }
       ]
     },
